@@ -57,7 +57,7 @@
             </span>
             <span class="brand-text">
                 <?= esc(store_name()) ?>
-                <small>Template Apps Script</small>
+                <small>Web App & Automation</small>
             </span>
         </a>
 
@@ -97,7 +97,7 @@
                     </span>
                     <span class="brand-text">
                         <?= esc(store_name()) ?>
-                        <small>Template Apps Script</small>
+                        <small>Web App & Automation</small>
                     </span>
                 </a>
                 <p><?= esc($store->tagline) ?>. Pembayaran diproses lewat gateway, akses template dikirim otomatis ke email setelah pembayaran terverifikasi.</p>

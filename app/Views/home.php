@@ -5,10 +5,10 @@ $faqs             = $faqs ?? [];
 <section class="hero">
     <div class="wrap hero-grid">
         <div class="hero-copy">
-            <h1>Otomatisasi usaha dengan template Apps Script.</h1>
-            <p class="lede">Template siap salin ke akun Google Anda, lengkap dengan web app dan panduan deploy. Bayar sekali, akses selamanya. Invoice dan link akses dikirim ke email setelah pembayaran terverifikasi.</p>
+            <h1>Aplikasi web siap pakai berbasis Google Sheets & Apps Script.</h1>
+            <p class="lede">Kelola aktivitas harian hingga pekerjaan Anda lebih rapi tanpa kerumitan coding maupun biaya server. Seluruh data tersimpan aman di Google Drive pribadi Anda dan dilengkapi panduan pasang langkah demi langkah—cukup bayar sekali untuk akses selamanya, tanpa biaya langganan bulanan.</p>
             <div class="hero-actions">
-                <a class="btn btn-primary" href="<?= site_url('produk') ?>">Lihat katalog template</a>
+                <a class="btn btn-primary" href="<?= site_url('produk') ?>">Lihat katalog aplikasi</a>
                 <a class="btn btn-ghost" href="<?= site_url('status') ?>">Cek status pesanan</a>
             </div>
             <div class="hero-facts">
@@ -18,7 +18,7 @@ $faqs             = $faqs ?? [];
             </div>
         </div>
 
-        <aside class="dossier" aria-label="Isi paket template">
+        <aside class="dossier" aria-label="Isi paket aplikasi">
             <div class="dossier-head">
                 <h2>Isi paket</h2>
                 <span>Produk digital</span>
@@ -70,14 +70,14 @@ $faqs             = $faqs ?? [];
 <section class="section" id="produk">
     <div class="wrap">
         <div class="section-head">
-            <h2>Pilih template sesuai kebutuhan usaha.</h2>
+            <h2>Pilih aplikasi sesuai kebutuhan anda.</h2>
             <p>Satu produk berisi template Google Sheets, web app Apps Script, dan panduan deploy. Harga mengikuti tingkat kompleksitas alur kerja.</p>
         </div>
 
         <?php if ($products === []): ?>
             <div class="panel">
                 <div class="empty-state">
-                    <h3>Belum ada template aktif</h3>
+                    <h3>Belum ada aplikasi aktif</h3>
                     <p>Produk akan tampil di sini setelah admin menambahkannya dari dashboard.</p>
                     <a class="btn btn-ghost" href="<?= site_url('admin/login') ?>">Masuk dashboard</a>
                 </div>
@@ -122,13 +122,13 @@ $faqs             = $faqs ?? [];
         <div class="steps" aria-label="Empat langkah membeli sampai deploy">
             <div class="step">
                 <div class="step-number" aria-hidden="true"></div>
-                <h3>Pilih template</h3>
-                <p>Buka detail produk, cek isi template, lalu lanjut ke checkout.</p>
+                <h3>Pilih aplikasi</h3>
+                <p>Buka detail produk, cek isi aplikasi, lalu lanjut ke checkout.</p>
             </div>
             <div class="step">
                 <div class="step-number" aria-hidden="true"></div>
                 <h3>Bayar sesuai metode</h3>
-                <p>Pilih VA Permata, GoPay, atau QRIS. Pembayaran diproses oleh gateway.</p>
+                <p>Pilih Virtual Account, E-Wallet, atau QRIS. Pembayaran diproses oleh gateway.</p>
             </div>
             <div class="step">
                 <div class="step-number" aria-hidden="true"></div>
@@ -165,8 +165,8 @@ $faqs             = $faqs ?? [];
 <section class="cta-band">
     <div class="wrap cta-band-inner">
         <div>
-            <h2>Siap memulai otomatisasi usaha?</h2>
-            <p>Pilih template, bayar, lalu ikuti panduan deploy. Akses dikirim ke email setelah pembayaran terverifikasi.</p>
+            <h2>Siap menata aktivitas Anda lebih teratur?</h2>
+            <p>Pilih aplikasi yang sesuai kebutuhan, selesaikan pembayaran sekali saja, lalu pasang di Google Drive Anda melalui panduan yang praktis.</p>
         </div>
         <a class="btn btn-gold" href="<?= site_url('produk') ?>">Buka katalog</a>
     </div>

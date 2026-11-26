@@ -5,8 +5,8 @@
             <span aria-hidden="true">/</span>
             <span>Produk</span>
         </nav>
-        <h1>Katalog template Apps Script.</h1>
-        <p>Setiap produk berisi template Google Sheets, web app Apps Script, video panduan, dan panduan teks. Pilih yang paling dekat dengan cara usaha Anda bekerja.</p>
+        <h1>Katalog Aplikasi Web.</h1>
+        <p>Setiap produk dilengkapi database Google Sheets, antarmuka web Apps Script, serta panduan pemasangan dalam format video dan teks. Pilih sistem yang paling selaras dengan kebutuhan harian hingga pekerjaan Anda.</p>
     </div>
 </section>
 
