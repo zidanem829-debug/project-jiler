@@ -106,7 +106,7 @@
             <div class="footer-col">
                 <h2>Jelajahi</h2>
                 <ul>
-                    <li><a href="<?= site_url('produk') ?>">Katalog template</a></li>
+                    <li><a href="<?= site_url('produk') ?>">Katalog aplikasi</a></li>
                     <li><a href="<?= site_url('/') ?>#cara-kerja">Cara kerja</a></li>
                     <li><a href="<?= site_url('status') ?>">Cek status pesanan</a></li>
                 </ul>
